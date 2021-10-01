@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+body
+{
+  position: relative;
+  height: 100%;
+}
+#grid
+{
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, [col] 33%);
+  grid-template-rows: repeat(4, [row] auto);
+}
+.header
+{
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  grid-column: col / span 3;
+  grid-row: 1;
+}
+.containerBooks1 
+{
+  grid-column: col / span 3;
+  grid-row: row 2;
+  display: flex;
+  justify-content: center;
+}
+.containerBooks2
+{
+  grid-column: col / span 3;
+  grid-row: row 3;
+  display: flex;
+  justify-content: center;
+}
+.footlink1
+{
+  width: auto;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  grid-column: col / span 3;
+  grid-row: 4;
+}
+.footContainer
+{
+  display: inline-flex;
+}
+/*
+.footlink2
+{
+  width: auto;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  grid-column: col 2;
+  grid-row: 4;
+}
+
+.snip1273 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  margin-top: 1.25vw;
+  margin-right: 2.5vw;
+  margin-bottom: 1.25vh;
+  margin-left: 2.5vw;
+  min-width: 10.8vw -3vw;
+  max-width: 10.8vw;
+  width: 10.8vw;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 16px;
+}*/
+.card {
+  margin: 2vw;
+  width: 23vw;
+  height: calc(9/16 * 23vw);
+  max-width: calc(16/9 * 23vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+}
+/*
+.card:after {
+  content: '';
+  width: 250%;
+  height: 250%;
+  position: absolute;
+  top: var(--y);
+  left: var(--x);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  background: radial-gradient(circle closest-side, rgba(255, 255, 255, 0.3), transparent);
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+}*/
+
+.card:hover:after,
+.card:hover .card-play {
+  opacity: 1;
+}
+
+.card1 {
+  width: 33vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/bicentennial_man.jpg") center center/cover;
+  overflow: hidden;
+}
+.card1 h2 {
+  font-family: Raleway, sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 0;
+  text-shadow: .5px .5px white;
+}
+.card1:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.card2 {
+  width: 33vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/end_of_eternity.jpg") center center/cover;
+  overflow: hidden;
+}
+.card2 h2 {
+  font-family: Raleway, sans-serif;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  opacity: 0;
+  color: red;
+  text-shadow: 1px 1px white;
+}
+.card2:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.card3 {
+  width: 23vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/i_robot.jpg") center center/cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.card3 h2 {
+  font-family: Raleway, sans-serif;
+  width: 80%;
+  text-align: center;
+  opacity: 0;
+  color: cyan;
+  text-shadow: 1px 1px black;
+}
+.card3:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.card4 {
+  width: 33vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/robots.jpg") center center/cover;
+  overflow: hidden;
+}
+.card4 h2 {
+  font-family: Raleway, sans-serif;
+  width: 70%;
+  text-align: center;
+  opacity: 0;
+  color: #00ff00;
+  text-shadow: 1px 1px black;
+}
+.card4:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.card5 {
+  width: 33vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/nightfall1988.jpg") center center/cover;
+  overflow: hidden;
+}
+.card5 h2 {
+  font-family: Raleway, sans-serif;
+  width: 70%;
+  text-align: center;
+  opacity: 0;
+  color: white;
+  text-shadow: 1px 1px red;
+}
+.card5:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
+
+.card6 {
+  width: 20vw;
+  height: calc(9/16 * 33vw);
+  max-width: calc(16/9 * 33vh);
+  max-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: url("images/nigtfall2002.jpg") center center/cover;
+  overflow: hidden;
+}
+.card6 h2 {
+  font-family: Raleway, sans-serif;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: red;
+  text-shadow: 1px 1px white;
+}
+.card6:hover h2
+{
+  opacity: 1;
+  transition:all 300ms ease-in-out;
+ -webkit-transition:all 300ms ease-in-out;
+ -moz-transition:all 300ms ease-in-out;
+ -o-transition:all 300ms ease-in-out;
+ -ms-transition:all 300ms ease-in-out;
+}
