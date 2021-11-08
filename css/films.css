@@ -116,7 +116,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/bicentennial_man.jpg") center center/cover;
+  background: url("../images/bicentennial_man.jpg") center center/cover;
   overflow: hidden;
 }
 .card1 h2 {
@@ -153,7 +153,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/end_of_eternity.jpg") center center/cover;
+  background: url("../images/end_of_eternity.jpg") center center/cover;
   overflow: hidden;
 }
 .card2 h2 {
@@ -190,7 +190,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/i_robot.jpg") center center/cover;
+  background: url("../images/i_robot.jpg") center center/cover;
   background-size: cover;
   overflow: hidden;
 }
@@ -226,7 +226,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/robots.jpg") center center/cover;
+  background: url("../images/robots.jpg") center center/cover;
   overflow: hidden;
 }
 .card4 h2 {
@@ -261,7 +261,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/nightfall1988.jpg") center center/cover;
+  background: url("../images/nightfall1988.jpg") center center/cover;
   overflow: hidden;
 }
 .card5 h2 {
@@ -296,7 +296,7 @@ body {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
     0 3px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  background: url("images/nigtfall2002.jpg") center center/cover;
+  background: url("../images/nigtfall2002.jpg") center center/cover;
   overflow: hidden;
 }
 .card6 h2 {
